@@ -85,7 +85,7 @@ void UpdateGame(void)
 void DrawGame(void)
 {
     BeginDrawing(); // rysowanie rozpoczecie
- DrawFPS(WindowSize-100,WindowSize-970); // Rozmieszczenie napisu FPSów
+ DrawFPS(WindowSize-100,WindowSize-790); // Rozmieszczenie napisu FPSów
         ClearBackground(BLACK); // KOLOR TŁA 
 
         if (!gameOver)
