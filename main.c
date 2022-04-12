@@ -92,7 +92,7 @@ void DrawGame(void)
         {
             DrawRectangleRec(player1.model, player1.color);
 
-        if (pause) DrawText("GRA ZATRZYMANA", screenWidth/2 - MeasureText("GAME PAUSED", 52)/2, screenHeight/2 - 40, 40, SKYBLUE); // zatrzymanie gry pod przyciskie "p" oraz wyswietlenie napis GAME PAUSED
+        if (pause) DrawText("GRA ZATRZYMANA", screenWidth/2 - MeasureText("GRA ZATRZYMANA", 52)/2, screenHeight/2 - 40, 40, SKYBLUE); // zatrzymanie gry pod przyciskie "p" oraz wyswietlenie napis GAME PAUSED
         }
          
  // OGRANICZENIE graniczne
